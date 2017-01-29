@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb/base",
+  "globals": {
+    "window": true,
+    "Phaser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": "webpack.config.js"
+    }
+  }
+}
